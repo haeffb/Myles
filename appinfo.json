@@ -1,0 +1,14 @@
+{
+  "id": "com.tigers.beta.myles",
+  "copy": "&copy; Copyright 2011 Brian A. Haeffner.",
+  "version": "0.3.13",
+  "title": "Myles",
+  "vendor": "Tiger Country Software",
+  "vendorurl": "http://www.tigercountrysoftware.com",
+  "main": "index.html",
+  "icon": "Myles64ob.png",
+  "miniicon": "Myles32o.png",
+  "type": "web",
+  "theme": "dark",
+  "noWindow": true
+}

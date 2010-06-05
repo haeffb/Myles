@@ -1,0 +1,53 @@
+<div class='palm-scene palm-dark'>
+    <div class="palm-group">
+        <div class="palm-group-title">
+            Google Account
+        </div>
+        <div class="palm-list">
+            <div class="palm-row first">
+                <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                    <div class="title">
+                        <div class="label" id="GoogleUserLabel">User</div>
+                        <div x-mojo-element="TextField" id="username" class="listClass" name="listName">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="palm-row last">
+                <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                    <div class="title">
+                        <div class="label" id="GooglePasswordLabel">
+                            Password
+                        </div>
+                        <div x-mojo-element="PasswordField" id="password" class="listClass" name="listName">
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--        <div class="palm-row last">
+                <div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+                    <div class="title">
+                        <div x-mojo-element="CheckBox" id="rememberMe" class="checkboxClass" name="checkboxName">
+                        </div>
+                        <div class="palm-body-text" id="rememberMeText">
+                            Save Account Info
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="palm-body-text" id="googleNote">
+        <span id="GoogleInfo"></span>
+        <a id ="GoogleLink" href="https://www.google.com/accounts/NewAccount"></a>
+    </div>
+    <div x-mojo-element="Button" id="login" class="buttonClass" name="buttonName">
+    </div>
+    <div id="scrimContainer" class="palm-scrim">
+        <div id="accountSpinner" x-mojo-element="Spinner">
+        </div>
+        <div class="infoText" id="importInformation">
+        </div>
+    </div>
+    <div id="message"></div>
+</div>

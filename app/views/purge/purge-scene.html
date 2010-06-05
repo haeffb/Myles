@@ -1,0 +1,37 @@
+<div class="palm-scene palm-dark">
+	<div class='header-ico' id='header-icon'></div>
+	<div id="milesPurgeTitle" class="palm-header left">Purge Data</div>
+	<div class="palm-header-spacer"></div>	
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='beginPurgeDateLabel'>Starting Date</div>
+		<div class="palm-list">
+			<div class="palm-row single">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="DatePicker" id="beginPurgeDate"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='endPurgeDateLabel'>Ending Date</div>
+		<div class="palm-list">
+			<div class="palm-row single">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="DatePicker" id="endPurgeDate"></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+	<div class="palm-inline-error" id="PurgeWarning">
+		<div class="palm-body-text" id="PurgeWarningMessage"></div>
+	</div>
+	
+	<div class="palm-inline-error" style="display:none" id="PurgeDateError">
+		<div class="error-message" id="PurgeDateErrorMessage"></div>
+	</div>
+	
+
+	<div x-mojo-element="Button" id="purgeButton"></div>
+</div>

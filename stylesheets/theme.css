@@ -1,0 +1,232 @@
+/* Override PALM STYLES here */
+body.palm-default {
+    background: url('../images/themes/background.png') center repeat;
+}
+
+.palm-dark a {
+  color: #00c;
+  color: #bd5b20;
+}
+
+.palm-dark a:active {
+  color: #f00;
+  color: #bd5b20;
+
+}
+
+.palm-dark a:visited {
+  color: #551a8b;
+}
+
+
+.palm-menu.command-menu.palm-default > .palm-menu-fade {
+  background: url(../images/themes/my-scene-fade-bottom-dark.png) bottom left repeat-x;
+  background: url(../images/themes/command-menu-gradient.png) bottom left repeat-x;
+}
+.my-scene-fade-bottom {
+	background: url('../images/themes/my-scene-fade-bottom-dark.png') center no-repeat;
+} 
+
+.palm-dark .palm-body-title {
+	color: #000;
+}
+
+.palm-dark .dark{
+	color: #000;
+}
+
+.palm-dark .palm-divider .label {
+	color: #bd5b20;
+}
+
+.palm-dark .palm-group-title {
+	color: #c0c0c0;
+
+}
+.palm-dark .toggle-button.true {
+  background: url(../images/themes/header-toggle-on-dark.png);
+}
+.palm-dark .checkbox.true {
+  background: url(../images/themes/checkbox-dark.png) bottom no-repeat;
+}
+/*
+.palm-divider.labeled .left {
+  width: 10px;
+  white-space: nowrap;
+  background: url(../images/themes/palm-divider-line-dark.png) right center no-repeat;
+  padding-left: 8px;
+}
+
+.palm-divider.labeled .right {
+  width: 100%;
+  padding-right: 8px;
+  background: url(../images/themes/palm-divider-line-dark.png) left center no-repeat;
+}
+
+*/
+.palm-dark .label.mv-picker-label,
+.palm-dark .palm-row .label {
+	color: #43210c;
+}
+
+.palm-dark .palm-info-text,
+.palm-dark .palm-body-text {
+	color: #43210c;
+}
+
+.palm-dark .textfield-group {
+  color: #000;
+  -webkit-border-image: url(../images/themes/textfield-shadow-dark-blur.png) 15 15 15 15 stretch stretch;
+}
+.palm-dark .textfield-group input {
+  color: #000 !important;
+}
+.palm-dark .textfield-group.focused,
+.palm-dark .palm-group .textfield-group.focused {
+  border-width: 15px;
+  -webkit-border-image: url(../images/themes/textfield-shadow-dark.png) 15 15 15 15 stretch stretch;
+}
+
+.palm-dark .palm-group .textfield-group {
+  border-width: 15px;
+  -webkit-border-image: url(../images/themes/textfield-noshadow.png) 15 15 15 15 stretch stretch;
+}
+
+.palm-dark .palm-group .palm-row.first .textfield-group.focused {
+  border-width: 15px;
+  -webkit-border-image: url(../images/themes/group-textfield-shadow-first-dark.png) 15 15 15 15 stretch stretch;
+}
+.palm-dark .palm-group .palm-row.last .textfield-group.focused {
+  border-width: 15px;
+  -webkit-border-image: url(../images/themes/group-textfield-shadow-last-dark.png) 15 15 15 15 stretch stretch;
+}
+.palm-dark .palm-group .palm-row.single .textfield-group.focused {
+  border-width: 15px;
+  -webkit-border-image: url(../images/themes/group-textfield-shadow-single-dark.png) 15 15 15 15 stretch stretch;
+}
+
+/* Menus */
+
+
+.palm-menu-button {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-menu-button.selected {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 50 25 150 25 repeat repeat;
+}
+
+.palm-menu-text, .palm-menu-label {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-popup-content .popup-item-checkmark,
+.palm-popup-content .chosen .popup-item-checkmark {
+  background: url(../images/themes/checkmark.png) center center no-repeat;
+}
+
+
+.palm-menu-text.selected {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 50 25 150 25 repeat repeat;
+}
+
+
+.palm-menu-group .palm-menu-button,
+.palm-menu-group .palm-menu-label,
+.palm-menu-group .palm-menu-text {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-middle.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button:first-child,
+.palm-menu-group .palm-menu-label:first-child,
+.palm-menu-group .palm-menu-text:first-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-first.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button:last-child,
+.palm-menu-group .palm-menu-label:last-child,
+.palm-menu-group .palm-menu-text:last-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-last.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button:only-child,
+.palm-menu-group .palm-menu-label:only-child,
+.palm-menu-group .palm-menu-text:only-child {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 0 25 200 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button.selected,
+.palm-menu-group .palm-menu-label.selected,
+.palm-menu-group .palm-menu-text.selected {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-middle.png) 50 25 150 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button.selected:first-child,
+.palm-menu-group .palm-menu-label.selected:first-child,
+.palm-menu-group .palm-menu-text.selected:first-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-first.png) 50 25 150 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button.selected:last-child,
+.palm-menu-group .palm-menu-label.selected:last-child,
+.palm-menu-group .palm-menu-text.selected:last-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-last.png) 50 25 150 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-button.selected:only-child,
+.palm-menu-group .palm-menu-label.selected:only-child,
+.palm-menu-group .palm-menu-text.selected:only-child {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 50 25 150 25 repeat repeat;
+}
+
+/* Selected toggle buttons */
+
+.palm-menu-group .palm-menu-text.palm-depressed,
+.palm-menu-group .palm-menu-label.palm-depressed,
+.palm-menu-group .palm-menu-button.palm-depressed {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-middle.png) 100 25 100 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.palm-depressed:first-child,
+.palm-menu-group .palm-menu-label.palm-depressed:first-child,
+.palm-menu-group .palm-menu-button.palm-depressed:first-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-first.png) 100 25 100 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.palm-depressed:last-child,
+.palm-menu-group .palm-menu-label.palm-depressed:last-child,
+.palm-menu-group .palm-menu-button.palm-depressed:last-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-last.png) 100 25 100 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.palm-depressed:only-child,
+.palm-menu-group .palm-menu-label.palm-depressed:only-child,
+.palm-menu-group .palm-menu-button.palm-depressed:only-child {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 100 25 100 25 repeat repeat;
+}
+
+/* Selected active toggle buttons */
+
+.palm-menu-group .palm-menu-text.selected.palm-depressed,
+.palm-menu-group .palm-menu-label.selected.palm-depressed,
+.palm-menu-group .palm-menu-button.selected.palm-depressed {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-middle.png) 150 25 50 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.selected.palm-depressed:first-child,
+.palm-menu-group .palm-menu-label.selected.palm-depressed:first-child,
+.palm-menu-group .palm-menu-button.selected.palm-depressed:first-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-first.png) 150 25 50 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.selected.palm-depressed:last-child,
+.palm-menu-group .palm-menu-label.selected.palm-depressed:last-child,
+.palm-menu-group .palm-menu-button.selected.palm-depressed:last-child {
+  -webkit-border-image: url(../images/themes/palm-menu-segment-last.png) 150 25 50 25 repeat repeat;
+}
+
+.palm-menu-group .palm-menu-text.selected.palm-depressed:only-child,
+.palm-menu-group .palm-menu-label.selected.palm-depressed:only-child,
+.palm-menu-group .palm-menu-button.selected.palm-depressed:only-child {
+  -webkit-border-image: url(../images/themes/palm-menu-button.png) 150 25 50 25 repeat repeat;
+}

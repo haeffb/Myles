@@ -1,0 +1,54 @@
+[
+	{"source": "app/models/data.js"},
+	{"source": "app/models/google.js"},
+	{"source": "app/models/support_info.js"},
+    {"source": "app/assistants/app-assistant.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "entry",
+        "source": "app/assistants/entry-assistant.js"
+    },
+    {
+        "scenes": "list",
+        "source": "app/assistants/list-assistant.js"
+    },
+    {
+        "scenes": "preferences",
+        "source": "app/assistants/preferences-assistant.js"
+    },
+    {
+        "scenes": "account-login",
+        "source": "app/assistants/account-login-assistant.js"
+    },
+    {
+        "scenes": "export-data",
+        "source": "app/assistants/export-data-assistant.js"
+    },
+    {"source": "app/assistants/editdate-assistant.js"},
+    {"source": "app/assistants/editvehicles-assistant.js"},
+    {"source": "app/assistants/editcategory-assistant.js"},
+    {
+        "scenes": "dashalarm",
+        "source": "app/assistants/dashalarm-assistant.js"
+    },
+    {
+		"scenes": "dashexport",
+       "source": "app/assistants/dashexport-assistant.js"
+    },
+    {
+		"scenes": "dashdbsave",
+       "source": "app/assistants/dashdbsave-assistant.js"
+    },
+    {
+        "scenes": "purge",
+        "source": "app/assistants/purge-assistant.js"
+    },
+    {
+        "scenes": "support",
+        "source": "app/assistants/support-assistant.js"
+    },
+    {
+        "scenes": "faq",
+        "source": "app/assistants/faq-assistant.js"
+    }
+]

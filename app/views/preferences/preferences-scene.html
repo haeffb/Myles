@@ -1,0 +1,112 @@
+<div class="palm-scene palm-dark">
+	<div class='header-ico' id='header-icon'></div>
+	<div id="milesPrefsTitle" class="palm-header left">Myles Preferences</div>
+	<div class="palm-header-spacer"></div>
+		
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='optionsLabel'>Options</div>
+		<div class="palm-list">
+			<div class="palm-row first">
+				<div class="palm-row-wrapper">
+				<table class="palm-list-section-label">
+					<tr>
+						<td>
+							<span x-mojo-loc="" class='toggleLabel title dark' id='autoFillLabel'>AutoFill mileage</span>		
+						</td>
+						<td>
+									<div x-mojo-element="ToggleButton" id="autoFillToggle" class="togglebuttonClass"></div>
+							</div>
+						</td>	
+					</tr>
+				</table>
+				</div>
+			</div>
+			<div class="palm-row ">
+				<div class="palm-row-wrapper">
+				<table class="palm-list-section-label">
+					<tr>
+						<td>
+							<span x-mojo-loc="" class='toggleLabel title dark' id='autoTimeLabel'>AutoFill ending time</span>		
+						</td>
+						<td>
+									<div x-mojo-element="ToggleButton" id="autoTimeToggle" class="togglebuttonClass"></div>
+							</div>
+						</td>	
+					</tr>
+				</table>
+				</div>
+			</div>
+			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="ListSelector" id="reminderTime" class='dark'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+			
+	<div class="palm-group">
+	<div class="palm-group-title" id="exportInfoLabel" x-mojo-loc=''>Export Options</div>
+		<div class="palm-list">
+	   	<div class="palm-row first">
+				<div class="palm-row-wrapper">
+				<table class="palm-list-section-label">
+					<tr>
+						<td>
+							<span x-mojo-loc="" class='toggleLabel title dark' id='autoExportLabel'>Auto Export</span>		
+						</td>
+						<td>
+									<div x-mojo-element="ToggleButton" id="autoExportToggle" class="togglebuttonClass"></div>
+							</div>
+						</td>	
+					</tr>
+				</table>
+				</div>
+			</div>
+			<div class="palm-row">
+				<div class="palm-row-wrapper dark">
+					<div x-mojo-element="ListSelector" id="exportFrequencySelector"></div>
+				</div>
+			</div>
+			<div class="palm-row">
+				<div class="palm-row-wrapper dark">
+					<div x-mojo-element="ListSelector" id="exportTypeSelector"></div>
+				</div>
+			</div>
+	   		<div class="palm-row" id='emailRow'>
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+					<div class="title dark">
+						<div x-mojo-element="TextField" id="emailText"></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row last" id="googleRow">
+				<div class="palm-row-wrapper dark">
+					<div x-mojo-element="Button" id="googleAccountButton"></div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+						
+			
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='categoryListLabel'>Categories</div>
+		<div class="palm-list">
+			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="List" id="categoryList" ></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='vehiclesListLabel'>Vehicles</div>
+		<div class="palm-list">
+			<div class="palm-row last">
+				<div class="palm-row-wrapper">
+					<div x-mojo-element="List" id="vehicleList"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

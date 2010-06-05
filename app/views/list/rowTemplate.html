@@ -1,0 +1,20 @@
+<div class='palm-row' x-mojo-touch-feedback='momentary'>
+	<div class='palm-row-wrapper'>
+		<div id='icon' class='mylist infoicon iconbox'></div>
+		<div id='date' class='mylist mymiles'>	
+			#{mileage}
+		</div>
+		<div id='date' class='mylist mydate'>	
+			#{dateformat}
+		</div>
+		<div id='purpose' class='mytitle truncating-text'>
+			#{purpose}-#{destination}
+		</div>
+		<div id="notesDrawer">
+			<div name='notesDrawer' x-mojo-element="Drawer">
+				<div class='mynote'>#{begMiles}-#{endMiles}: #{timeDiff}</div>
+				<div class='mynote'>Note: #{notes}</div> 
+			</div>
+		</div>
+	</div>
+</div>

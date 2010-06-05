@@ -1,0 +1,195 @@
+/* Put Application specific CSS here. */
+
+/* Standard application CSS here */
+.header-ico {
+	overflow: hidden;
+	width: 48px;
+	height: 48px;
+	margin-top: 0px;
+	vertical-align: top;
+	position: fixed;
+	right: 12px;
+	display: inline-block;
+	background: url(../Myles48ob.png) no-repeat center;
+	z-index: 99999;
+}
+
+.header-title {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.entrytext {
+    position: absolute;
+ 	float: left;
+    width: 45%; 
+}
+
+.entrytext .hint-text,
+.entrytext .textfield-group .hint-text {
+	font-size: 16px;
+}
+
+ .entrydate {
+ 	position: absolute;
+	margin-top: 3px;
+	left: 55%;
+ 	color: #5a8bc4; 
+ 	color: #f07800;
+	/* color: #888888; */
+ 	font-size: 15px;
+	line-height: 22px;
+ }
+
+  .entryiconbox {
+ 	height: 32px;
+	width: 32px;
+	margin-top: 10px;
+	float: right;
+	padding: 5px 5px 5px 0px;
+ }
+
+
+  .dashboard-icon-miles {
+  	background: url(../Myles48ob.png) center no-repeat;
+  }
+
+  .add-icon-gray {
+  	background: url(../images/gray-new.png) no-repeat;
+ }
+ .checkboxClass{
+	margin-left:5%;
+}
+
+/* list styles */ 
+ .rightlabel {
+ 	float: right;
+ }
+ .mylist {
+ 	color: #251c10;
+  	/* text-shadow: #fefdfc 2px 2px 0px; */
+ 	/* color: #5a8bc4; */ 
+	color: #43210c;
+ 	font-size: 16px;
+	line-height: 22px;
+	margin-left: 15px;
+}
+
+ .mytotal {
+ 	font-size: 18px;
+	color: #bd5b20;
+	color: #ffffff;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	z-index: 99999;
+ }
+ .mynote {
+ 	color: #ffffff;
+	font-size: 16px;
+	padding: 2px 10px 5px 10px;
+	margin-left: 15px;
+	margin-right: 10px;
+ }
+ .mytitle {
+ 	color: #000000;
+ 	margin-left: 15px;
+ 	font-size: 18px;
+	padding: 2px 2px 5px 2px;
+	/* font-weight: bold; */
+ }
+ .mydate {
+	margin-top: -22px;
+	float: right;
+ }
+ .mymiles {
+ 	margin-top: 0px;
+	margin-left: 20px;
+ }
+
+  .iconbox {
+ 	height: 32px;
+	width: 32px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 5px 5px 5px 0px;
+ }
+ .infoicon {
+ 	background: url(../images/Modify.png) no-repeat;
+ 	background: url(../images/archive32o.png) no-repeat;
+ }
+ .clockicon {
+  	background: url(../images/clock32.png) no-repeat;
+ }
+ 
+  /* Support scene styles */
+.img_icon {
+	position:absolute;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../Myles32o.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;	
+}
+.list_scene {
+	position:relative;
+	left:10px;
+	top:5px;
+	width:32px; 
+	height:32px;
+	background: url(../images/question-32_2.png) no-repeat center ;
+	padding: 10px 0px 0px 5px;
+	float:left;
+}
+.img_email {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-email.png) no-repeat bottom;
+	vertical-align:bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_phone {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-phone.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+.img_web {
+	position:relative;
+	left:8px;
+	top:10px;
+	width:32px; 
+	height:32px;
+	background: url(../images/application-web.png) no-repeat  bottom;
+	padding: 0px 0px 0px 5px;
+	float:left;
+}
+
+.helptext {
+	font-size: 16px;
+	padding: 0px 15px 0px 10px;
+	margin: 0px 15px 10px 10px;
+}
+
+.helptopic {
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0px 10px 0px 10px;
+	margin: 15px 10px 10px 10px;
+
+}
+
+
+
+

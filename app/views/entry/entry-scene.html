@@ -1,0 +1,97 @@
+<!--
+<div id="main" class="palm-hasheader">
+<div id="entryTitle" class="palm-header">Enter Mileage Info</div> -->
+<div class="palm-scene palm-dark">
+
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='mileageGroupLabel'></div>
+		<div class="palm-list" >
+			
+			<div class="palm-row first">
+				<div class="palm-row-wrapper" x-mojo-focus-highlight='true'>
+						<div id='vehicle' x-mojo-element='ListSelector' class='dark'></div>
+				</div>
+			</div>
+			<div class='palm-row' x-mojo-tap-highlight='momentary' x-mojo-touch-feedback='delayed'>
+				<div class="palm-row-wrapper">
+					<div class="textfield-group" x-mojo-focus-highlight="true">
+						<div class='title dark'>
+						<!--			<div class='label' id='beginLabel'>Begin</div> -->
+									<div id='begMiles' x-mojo-element='TextField' class='entrytext'></div>
+									<div id='begDateID' class='entrydate'></div>				
+									<div id='begicon' class='clockicon entryiconbox'></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class='palm-row' x-mojo-tap-highlight='momentary' x-mojo-touch-feedback='delayed'>
+				<div class="palm-row-wrapper"  >
+					<div class="textfield-group" x-mojo-focus-highlight="true">
+						<div class='title dark'>
+						<!--			<div class='label' id='endLabel'>End</div> -->
+									<div id='endMiles' x-mojo-element='TextField' class='entrytext'></div>
+									<div id='endDateID' class='entrydate'></div>
+									<div id='endicon' class='clockicon entryiconbox'></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="palm-row last">
+				<div class="palm-row-wrapper" x-mojo-focus-highlight='true'>
+					<table>
+						<tr>
+							<td width='100%'>
+							<div id='reminderTimeSelector' x-mojo-element='ListSelector' class='dark'></div>							
+							</td>
+							<td>
+							<div id='reminderTimeCheck' x-mojo-element='CheckBox' class='right'></div>							
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+		</div>
+	</div> 
+		
+<!--	<div id="closeWarning" class='palm-body-text dark center'>
+		Note: To save your entry data, use a "Back Gesture" to return to the main screen.
+	</div> -->
+	
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc='' id='purposeGroupLabel'></div>
+		<div class="palm-list">
+			<div class="palm-row first">
+				<div class="palm-row-wrapper" x-mojo-focus-highlight='true'>
+						<div id='category' x-mojo-element='ListSelector' class='dark'></div>
+				</div>
+			</div>
+			<div class="palm-row">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight='true'>
+					<div class='title dark'>
+						<div class='label' id='purposeLabel'>Purpose</div>
+						<div id='purpose' x-mojo-element='TextField' class='listClass'></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight='true'>
+					<div class='title dark'>
+						<div class='label' id='destinationLabel'>Destination</div>
+						<div id='destination' x-mojo-element='TextField' class='listClass'></div>
+					</div>
+				</div>
+			</div>
+			<div class="palm-row last">
+				<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight='true'>
+					<div class='title dark'>
+						<div class='label' id='notesLabel'>Notes</div>
+						<div id='notes' x-mojo-element='TextField' class='listClass'></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
